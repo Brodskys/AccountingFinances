@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "508749888717",
+    "firebase_url": "https://limb-xox.firebaseio.com",
+    "project_id": "limb-xox",
+    "storage_bucket": "limb-xox.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508749888717:android:7f736e45344683bf987d84",
+        "android_client_info": {
+          "package_name": "com.example.limb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508749888717-i9bsg6eoid7get48f6eo9t5q3qkssm0u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.limb",
+            "certificate_hash": "801a8e8afa351c2b610845681bd89cdcde55415d"
+          }
+        },
+        {
+          "client_id": "508749888717-v0ntf3cduagbb1ck9m8ahjnad8nimrjo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXPaSQnLgJsRWSjFaZV8yEdckPaVmGzX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508749888717-v0ntf3cduagbb1ck9m8ahjnad8nimrjo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

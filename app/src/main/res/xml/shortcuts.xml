@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="shortcut_accounts"
+        android:enabled="true"
+        android:icon="@drawable/credit_card"
+        android:shortcutShortLabel ="@string/accounts_text"
+        android:shortcutLongLabel ="@string/accounts_text">
+        <intent
+            android:action ="android.intent.action.VIEW"
+            android:targetPackage="com.example.limb"
+            android:targetClass="com.example.limb.MainActivity" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="shortcut_add_operation"
+        android:enabled="true"
+        android:icon="@drawable/add"
+        android:shortcutShortLabel ="@string/add_operation_text"
+        android:shortcutLongLabel ="@string/add_operation_text">
+        <intent
+            android:action ="android.intent.action.VIEW"
+            android:targetPackage="com.example.limb"
+            android:targetClass="com.example.limb.AddOperation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="shortcut_menu"
+        android:enabled="true"
+        android:icon="@drawable/menu"
+        android:shortcutShortLabel ="@string/menu_text"
+        android:shortcutLongLabel ="@string/menu_text">
+        <intent
+            android:action ="android.intent.action.VIEW"
+            android:targetPackage="com.example.limb"
+            android:targetClass="com.example.limb.Menu" />
+    </shortcut>
+
+</shortcuts>
